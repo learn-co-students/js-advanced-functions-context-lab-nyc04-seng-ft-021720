@@ -79,9 +79,7 @@ let calculatePayroll = function(employeeRecords){
 
 
 let findEmployeeByFirstName = function(collection, firstNameString){
-
     let employee = collection.find(employee => employee.firstName === firstNameString)
-
     return employee
 }
 
